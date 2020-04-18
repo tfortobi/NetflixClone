@@ -90,14 +90,17 @@ body{
 
 .in button{
     background-color: red;
-    border-radius: 4px;
+    border-radius: 2px;
     border: none;
     height: 66px;
-    width: 290px;
+    width: 18%;
     padding-left: 0%;
     margin-left: 0%;
     color: white;
-    font-family: helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    right: 3px;
 }
 
 .p1 h3{
@@ -306,8 +309,11 @@ hr{
 .panel{
     padding: 0 18px;
     background-color:rgb(48, 48, 48);
+    width: 45%;
+    height: fit-content;
     display: none;
     overflow: hidden;
+    transition: 0.2s ease-out;
 }
 
 .container5 ul{
@@ -315,4 +321,42 @@ hr{
 }
 .container5 li{
     padding-bottom: 10px;
+}
+
+.accordion::after{
+    content: '\02795';
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.questionspage{
+    position: relative;
+    left: 26%;
+    top: 100px;
+}
+
+.questionspage input{
+    width: 28%;
+    height: 70px;
+}
+
+.questionspage button{
+    width: 20%;
+    height: 75px;
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 2px;
+    font-size: 30px;
+    position: relative;
+    right: 3px;
+    top: 5px;
+}
+
+.questionspage h2{
+    font-size: 20px;
+    position: relative;
+    left: 150px;
 }
