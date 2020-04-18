@@ -1,19 +1,22 @@
-/*body{
-    overflow-x: hidden;
-}*/
+body{
+    margin: 0%;
+    padding:0%;
+    /*overflow-x:hidden*/
+    
+}
 .container{
     background-image: url(firstpage.jpg);
     padding: 0%;
     margin: 0%;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid #222;
 }
 
 .container2{
     background-color: black;
     padding: 0%;
     margin: 0%;
-    border-top: 1px solid gray;
-    border-bottom: 5px solid gray;
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
     height: 500px;
 }
 
@@ -157,8 +160,8 @@ hr{
 }
 
 .container3{
-    border-top: 1px solid gray;
-    border-bottom: 5px solid gray;
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
     background-color: black;
     height: 500px;
 
@@ -200,7 +203,7 @@ hr{
     left: 370px;
     width: 350px;
     height: 100px;
-    border: 2px solid gray;
+    border: 2px solid #222;
     border-radius: 24px;
     z-index: 2;
 }
@@ -230,8 +233,8 @@ hr{
 
 .container4{
     background-color: black;
-    border-top: 1px solid gray;
-    border-bottom: 5px solid gray;
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
     height: 600px;
 }
 
@@ -270,3 +273,46 @@ hr{
 }
 
 
+.container5{
+    color: white;
+    background-color: black;
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
+    min-height: 1000px;
+}
+
+.container5 h1{
+    text-align: center;
+    font-size: 52px;
+    position: relative;
+    top: 30px;
+}
+
+.accordion{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 45%;
+    height: 80px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 27%;
+    text-align: left;
+    font-size: 28px;
+}
+
+.panel{
+    padding: 0 18px;
+    background-color:rgb(48, 48, 48);
+    display: none;
+    overflow: hidden;
+}
+
+.container5 ul{
+    list-style: none;
+}
+.container5 li{
+    padding-bottom: 10px;
+}
