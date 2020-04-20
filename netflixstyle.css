@@ -3,7 +3,8 @@ body{
     padding:0%;
     height: 100%;
     width: 100%;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
+    font: sans-serif;
     
 }
 .container{
@@ -11,6 +12,7 @@ body{
     padding: 0%;
     margin: 0%;
     border-bottom: 5px solid #222;
+    height: 720px;
 }
 
 .container2{
@@ -153,7 +155,7 @@ hr{
     position: absolute;
     width: 400px;
     height: auto;
-    top: 784px;
+    top: 840px;
     right: 264px;
     z-index: 1;
 }
@@ -362,21 +364,63 @@ hr{
 .container6{
     height: 100%;
     background-color: black;
-    color: darkgray;
+    color: rgb(116, 107, 107);
     border-top: 5px solid #222;
     border-bottom: 5px solid #222;
+}
+
+.container6 h3{
+    position: relative;
+    top: 40px;
+    left: 22%;
 }
 
 .container6 ul{
     list-style: none;
 }
 
-.footer{
-    display: inline-block;
+#list1 li{
+    position: relative;
+    left: 18%;
+    top: 60px;
+    margin: 2em; 
+    font-size: 15px; 
+}
+#list2 li{
+    position: relative;
+    left: 33%;
+    bottom: 175px;
+    margin: 2em; 
+    font-size: 15px;
+}
+#list3 li{
+    position: relative;
+    left: 48%;
+    bottom: 370px;
+    margin: 2em; 
+    font-size: 15px;
+}
+#list4 li{
+    position: relative;
+    left: 63%;
+    bottom: 560px;
+    margin: 2em; 
+    font-size: 15px;
 }
 
-.container6 h3{
+.container6 form{
+    position: relative;
+    bottom: 470px;
+    left: 20%;
+}
 
+#language{
+    background-color: black;
+    color: rgb(116, 107, 107);
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-color: #222;
 }
 
 
