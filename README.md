@@ -5,6 +5,6 @@
 ## Images Below
 
 ### Real Netflix page
-![](images/realnetflix1)
+![](images/realnetflix1.jpg)
 
 
